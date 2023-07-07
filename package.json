@@ -1,0 +1,31 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "\"Browser based game\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Natalikud/hw_js_adv_npm_package.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Natalikud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Natalikud/hw_js_adv_npm_package/issues"
+  },
+  "homepage": "https://github.com/Natalikud/hw_js_adv_npm_package#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.22.6",
+    "@babel/core": "^7.22.6",
+    "@babel/preset-env": "^7.22.6"
+  },
+  "dependencies": {
+    "core-js": "^3.31.0"
+  }
+}
